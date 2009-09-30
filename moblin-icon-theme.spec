@@ -12,9 +12,6 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  icon-naming-utils
 
-Requires:       pkgconfig
-Requires:       librsvg2
-
 %description
 Contains the base icon theme for the Moblin UX
 
