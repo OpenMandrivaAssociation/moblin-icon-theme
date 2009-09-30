@@ -3,7 +3,7 @@ Version:        0.7
 Release:        %mkrel 1
 Summary:        Base moblin icons
 
-Group:          User Interface/Desktops
+Group:          Graphics
 License:        CC-BY
 BuildArch:      noarch
 URL:            http://www.moblin.org
