@@ -14,7 +14,6 @@ BuildRequires:  icon-naming-utils
 
 Requires:       pkgconfig
 Requires:       librsvg2
-Requires(post): gtk2
 
 %description
 Contains the base icon theme for the Moblin UX
@@ -36,15 +35,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-for dir in /usr/share/icons/*; do   
-  if test -d "$dir"; then  
-    if test -f "$dir/index.theme"; then  
-      /usr/bin/gtk-update-icon-cache --quiet "$dir"   
-    fi  
-  fi  
-done  
 
 %files
 %defattr(-,root,root,-)
