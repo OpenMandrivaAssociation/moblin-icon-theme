@@ -32,7 +32,7 @@ autoreconf -fi
 %install
 cd output/moblin
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
