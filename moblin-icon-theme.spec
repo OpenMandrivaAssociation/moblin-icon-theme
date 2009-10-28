@@ -1,5 +1,5 @@
 Name:           moblin-icon-theme
-Version:        0.7
+Version:        0.8
 Release:        %mkrel 1
 Summary:        Base moblin icons
 
