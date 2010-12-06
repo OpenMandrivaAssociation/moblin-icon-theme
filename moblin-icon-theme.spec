@@ -1,6 +1,6 @@
 Name:           moblin-icon-theme
 Version:        0.9
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Base moblin icons
 Group:          Graphics
 License:        CC-BY
