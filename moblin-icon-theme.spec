@@ -5,7 +5,7 @@ Summary:        Base moblin icons
 Group:          Graphics
 License:        CC-BY
 BuildArch:      noarch
-URL:            http://www.moblin.org
+URL:            https://www.moblin.org
 Source0:        http://git.moblin.org/cgit.cgi/%{name}/snapshot/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  hicolor-icon-theme
